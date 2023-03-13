@@ -12,9 +12,9 @@ class speechApi {
 
     this.speechApi = new SpeechToText()
     this.output = textarea.output 
-    // this.output = textarea.outerHTML
+    // this.output = textarea.outerHTML 
     this.speechApi.continuous = true
-    this.speechApi.lang = "ja"
+    this.speechApi.lang = "pt-BR"
     
     this.speechApi.onresult = (e) => {
       var resultIndex = e.resultIndex
